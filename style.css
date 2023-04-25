@@ -1,0 +1,177 @@
+
+#titulo {
+    color: deeppink;
+}
+
+p.texto {
+    color: blue;
+}
+
+p.especial {
+    color: green;
+}
+
+
+#post {
+    color: rgb(42, 119, 39);
+}
+
+#titulo {
+    color: purple;
+}
+
+article.post1 h2, article.post1 p{
+    color: maroon;
+}
+
+/* * {  /*Este es el selector universal
+    color: darkgreen;
+} */
+
+/* Esto es un comentario */
+
+#test {
+    color: rgb(200, 119, 39);
+    border-radius: 3px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: turquoise;
+}
+
+#fondo, h2.fondo {
+
+    color: turquoise;
+    height: 200px;
+    background: #ff4352 url('img/Link.jpeg') repeat-y center top / 100px 150px;;
+    /* background-color: rgb(124, 20, 90);
+    opacity: 1;
+    background-image: url(img/Link.jpeg);
+    background-size: 100px 150px;
+    height: 500px;
+    background-repeat: repeat-y;
+    background-position: center; */
+}
+
+#margen {
+    background-color: orange;
+    margin: 15px 20px 30px 50px;
+    padding: 20px 40px 60px 25px;
+    border: solid 2px blue;
+    height: 200px;
+    width: 100px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+p.texto, p.especial {
+    color: darkolivegreen;
+    font-size: 25px;
+    font-family: Bruno Ace SC, Helvetica, sans-serif;
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 2px 3px 8px;
+}
+
+a:link {
+    color: blueviolet;
+
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: lightblue;
+}
+
+ul {
+    background-color: brown;
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px darkgoldenrod;
+    padding: 5px;
+
+}
+
+th {
+    background-color: red;
+    color: white;
+    text-align: left;
+
+}
+
+tr:nth-child(even) { /* nth-child se escribe antes que hover */
+    background-color: #ddd;
+}
+
+
+tr:hover {
+    background-color: violet;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    visibility: hidden;
+    max-width: 300px;
+    background-color: #ff4352;
+}
+
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+    top: 10px;
+}
+
+.left {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    height: 100px;
+}
+
+.column {
+
+    margin: 0 Vertical 0px Horizontal; 
+    padding: 10px 0px; 
+    width: 33.3%;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: cadetblue;
+}
